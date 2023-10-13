@@ -3,19 +3,18 @@
     src: url("../fonts/Archangelsk.ttf");
   }
 *{
-    padding: 0;
-    margin: 0;
+   
 }
-h1,h2,h3,p{
-    padding: 0;
-    margin: 0;
+    h1,h2,h3,p{
+    padding: 0%;
+    margin: 0%;
 }
 a{
     text-decoration: none;
 }
 ul,ol{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     list-style: none;
 }
 header{
@@ -29,11 +28,11 @@ header{
     padding: 0 10px;
 }
 .header-top{
-    padding-top: 20px;
-    padding-bottom: 537px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   padding-top: 20px;
+   display: flex;
+   align-items: center;
+  padding-bottom: 537px;
+   justify-content: space-between;
 }
 .social{
     display: flex;
@@ -42,30 +41,30 @@ header{
     margin-right: 40px;
 }
 .social>li:last-child{
-    margin-right: 0;
+    margin-right: 0px;
 }
-.header-bottom{
+.header-botton{
     display: flex;
     justify-content: flex-end;
 }
 .header-info{
-    background-color: #F8F200;
+    background-color: #f8f200;
     padding: 70px;
-    background: linear-gradient(135deg, transparent 52px, #F8F200 0) top left,
-    linear-gradient(-45deg, transparent 52px, #F8F200 0) bottom right;
+    background: linear-gradient(135deg, transparent 52px, #f8f200 0) top left,
+    linear-gradient(-45deg, transparent 52px, #f8f200 0) bottom right;
     background-size: 100% 51%;
     background-repeat: no-repeat;
 }
 .header-info>h1{
     color: #000;
-font-family: "Archangelsk";
-font-size: 62px;
-font-weight: 400;
-max-width: 484px;
-padding-bottom: 25px;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    max-width: 484px;
+    padding-bottom: 25px;
 }
 .header-info>button{
-    color: #F8F200;
+    color: #F8F200;   
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
@@ -74,7 +73,7 @@ padding-bottom: 25px;
     background: #000;
     cursor: pointer;
 }
-h2{
+.title{
     padding-top: 70px;
     color: #000;
     font-family: "Archangelsk";
@@ -84,16 +83,16 @@ h2{
 }
 .text{
     color: #777;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 188.9%;
-    max-width: 952px;
-    margin-bottom: 70px;
+font-family: "Roboto";
+font-size: 18px;
+font-weight: 400;
+line-height: 188.9%;
+max-width: 952px;
+margin-bottom: 70px;
 }
 .text>span{
     color: #52BEDC;
+    font-weight: 700;
 }
 .box{
     display: flex;
@@ -102,32 +101,152 @@ h2{
 }
 .item1{
     width: 460px;
+    
 }
 .photo1{
-    background: url('../img/c035da59c21a6ae999fdb8660cc9a4ce.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 196px;
-    margin-bottom: 32px;
-    position: relative;
-    -webkit-clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
-    clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+ background: url('../img/photo1.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 196px;
+ margin-bottom: 32px;
+ clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 100%, 0 20%);
 }
 .photo1:last-child{
-    margin-bottom: 0;
     background: url('../img/photo2.png');
+    margin-bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item2{
-    width: 778px;
+    width: 788px;
+    
 }
 .photo2{
     background: url('../img/photo3.png');
     background-repeat: no-repeat;
     background-size: cover;
+    clip-path: polygon(7% 0, 100% 0, 100% 0, 100% 90%, 93% 100%, 0 100%, 0 100%, 0 10%);
     height: 424px;
-    -webkit-clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
-    clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+}
+.yellow{
+    background: #F8F200;
+    padding: 70px 0;
+}
+.yellowbox{
+    display: flex;
+    justify-content: space-between;
+}
+.monitor{
+padding-bottom: 26px;
+}
+.logo-company{
+display: flex;
+align-items: center;
+margin: 0 42px;
+}
+.x{
+    margin: 0 25px;
+}
+.yellowbox2>h2{
+    color: #000;
+    font-family: 'Archangelsk';
+    font-size: 62px;
+    font-weight: 400;
+    width: 560px;
+}
+.yellowbox2>p{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 188.9%;
+    width: 624px;
+    padding: 25px 0;
+}
+.yellowbox2>ul>li{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 26px;
+    display: flex;
+    align-items: center;
+}
+.yellowbox2>ul>li:last-child{
+    padding-bottom: 40px;
+}
+.yellowbox2>ul>li>img{
+    margin-right: 10px;
+}
+.yellowbox2>button{
+background: #000;
+padding: 15px 50px;
+color: #F8F200;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 700;
+}
+.buy{
+    display: flex;
+}
+.buybg{
+    flex-basis: 45%;
+    background: url(../img/buybg.png);
+}
+.buyinfo{
+    flex-basis: 55%; 
+    background: #000;
+    padding: 70px 0 70px 32px;
+}
+.buyinfo>h2{
+color: #FFF;
+font-family:'Archangelsk';
+font-size: 62px;
+font-weight: 400;
+padding-bottom: 25px;
+max-width: 488px;
+}
+.buyinfo>span{
+    color: #52BEDC;
+    font-family:'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
 
+.buyinfo>ul{
+    padding-top: 21px;
+}
+.buyinfo>ul>li{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family:'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.buyinfo>ul>li:last-child{
+    padding-bottom: 70px;
+}
+.buyinfo>ul>li>img{
+    padding-right: 10px;
+}
+.logobrend1{
+   padding-top: 25px;
+    display: flex;
+}
+.pc{
+    padding-right: 79px;
+    padding-bottom: 47.81px;
+}
+.xbox{
+    padding-bottom: 55.5px;
+}
+.stadia{
+    padding-right: 80px;
+}
+.logobrend2{
+    display: flex;
+    align-items: center;
 }
