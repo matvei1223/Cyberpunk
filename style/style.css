@@ -3,7 +3,8 @@
     src: url("../fonts/Archangelsk.ttf");
   }
 *{
-   
+    padding: 0%;
+    margin: 0%;
 }
     h1,h2,h3,p{
     padding: 0%;
@@ -46,6 +47,7 @@ header{
 .header-botton{
     display: flex;
     justify-content: flex-end;
+    bottom: 0;
 }
 .header-info{
     background-color: #f8f200;
@@ -72,6 +74,7 @@ header{
     padding: 19px 50px;
     background: #000;
     cursor: pointer;
+	border: 0px
 }
 .title{
     padding-top: 70px;
@@ -185,6 +188,9 @@ color: #F8F200;
 font-family: 'Roboto';
 font-size: 18px;
 font-weight: 700;
+cursor: pointer;
+border: 0px
+
 }
 .buy{
     display: flex;
@@ -192,6 +198,8 @@ font-weight: 700;
 .buybg{
     flex-basis: 45%;
     background: url(../img/buybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .buyinfo{
     flex-basis: 55%; 
@@ -250,3 +258,42 @@ max-width: 488px;
     display: flex;
     align-items: center;
 }
+.logodiv{
+   padding-top: 13px;
+   padding-bottom: 13px;
+   display: flex;
+
+}
+.Cyberpunkdown{
+    margin-right: 32px;
+}
+.CD_Projekt{
+    margin-right: 390px;
+}
+.dew{
+    padding-top: 27px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+
+}
+.dew>a:first-child{
+    margin-right: 32px;
+    color: #000;
+}
+.r{
+    padding: 13px 0;
+ color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 12px;
+font-weight: 400;
+background-color: #000;
+display: flex;
+}
+.r>.container>a{
+  color: #FFF;  
+}
+
