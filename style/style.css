@@ -19,7 +19,7 @@ ul,ol{
     list-style: none;
 }
 header{
-    background: url('../img/header-bg.png');
+    background: url('../img/header.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -107,7 +107,7 @@ margin-bottom: 70px;
     
 }
 .photo1{
- background: url('../img/photo1.png');
+ background: url('../img/photo 1.png');
  background-repeat: no-repeat;
  background-size: cover;
  height: 196px;
@@ -115,7 +115,7 @@ margin-bottom: 70px;
  clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 100%, 0 20%);
 }
 .photo1:last-child{
-    background: url('../img/photo2.png');
+    background: url('../img/photo 2.png');
     margin-bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ margin-bottom: 70px;
     
 }
 .photo2{
-    background: url('../img/photo3.png');
+    background: url('../img/photo 3.png');
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(7% 0, 100% 0, 100% 0, 100% 90%, 93% 100%, 0 100%, 0 100%, 0 10%);
@@ -245,14 +245,14 @@ max-width: 488px;
     display: flex;
 }
 .pc{
-    padding-right: 79px;
-    padding-bottom: 47.81px;
+        margin-right: 79px;
+        margin-bottom: 47.81px;
 }
 .xbox{
-    padding-bottom: 55.5px;
+        margin-bottom: 55.5px;
 }
 .stadia{
-    padding-right: 80px;
+        margin-right: 80px;
 }
 .logobrend2{
     display: flex;
@@ -279,13 +279,16 @@ max-width: 488px;
     display: flex;
 
 }
+.dew>a{
+    color: #000;
+}
 .dew>a:first-child{
     margin-right: 32px;
     color: #000;
 }
 .r{
-    padding: 13px 0;
- color: #FFF;
+padding: 13px 0;
+color: #FFF;
 text-align: center;
 font-family: 'Roboto';
 font-size: 12px;
@@ -296,4 +299,84 @@ display: flex;
 .r>.container>a{
   color: #FFF;  
 }
+@media (max-width:1024px){
+      .container{
+        max-width: 988px;
+        margin: 0 auto;
+        padding: 0 36px;
+    }
+    .yellowbox2>h2,.yellowbox2>p{
+        max-width: 460px;
+    }
+    .yellowbox2>p{
+        height: 192px;
+    }
+    .monitor{
+        max-width: 460px;
+    }
+    .logo-company{
+        flex-direction: column;
+        margin: 0;
+    }
+    .CD_Projekt{
+        margin-right: 64px;
+    }
+    header{
+        background: url("../img/header.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;}
+        .title{
+            max-width: 620px;
+        }
+        .text{
+            max-width: 788px;
+        }
+        .photo1:last-child{
+            background: url('../img/photo 3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 952px;
+            height: 424px;
+            margin-right: 0;
+            
+        }
+        .photo1:first-child{
+            width: 460px;
+            height: 196px;
+        }
+        .item1{
+        width: 460px;  
+        }
+        .photo2{
+        background: url('../img/photo 2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 196px;
+        width: 460px;
+        margin-left: 32px;
+        margin-right: 0;
+        clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 100%, 0 20%);
+        }
+        .yellowbox:first-child{
+            padding-right: 32px; 
+        }
+        .yellowbox1{
+            margin-right: 32px;
+        }
+        .x{
+            padding: 25px 0;
+        }
+        .buybg{
+            flex-basis: 30%;
+            background: url('../img/buybg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .buyinfo{
+            flex-basis: 70%; 
+        }
+    }
+
+
 
